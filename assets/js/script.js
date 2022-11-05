@@ -13,4 +13,6 @@ sidebarBtn.addEventListener("click", function () {
 });
 
 //play song
-const song = document.querySelector("#song").play();
+window.addEventListener("click", () => {
+  const song = document.querySelector("#song").play();
+});
